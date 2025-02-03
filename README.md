@@ -32,11 +32,10 @@ This project uses an **ASP.NET** empty project structure. Follow the steps below
 - **.NET SDK** (>= 5.x)
 - **SQL Server** (for database management)
 
-### Installation
-Clone the repository:
-   ```bash
 
-Open the app in your browser at [http://localhost:5173](http://localhost:5173).
+## Clone Repository
+-git clone https://github.com/AllenDG/ELibrary-Management-System.git
+
 
 ## Contributors
 - [Allen Walter De Guzman](https://github.com/AllenDG)
