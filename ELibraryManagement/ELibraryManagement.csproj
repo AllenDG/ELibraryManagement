@@ -67,8 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\book.png" />
+    <Content Include="assets\img\hero.jpg" />
+    <Content Include="assets\img\bookLogo.png" />
+    <Content Include="assets\js\books.js" />
     <Content Include="bootstrap\css\bootstrap.rtl.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="CSS\customstylesheet.css" />
     <Content Include="dataTables\css\dataTables.dataTables.min.css" />
     <Content Include="dataTables\js\dataTables.min.js" />
     <Content Include="fontawesome\css\all.css" />
@@ -2167,10 +2172,33 @@
     <Content Include="fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome\svgs\solid\z.svg" />
+    <Content Include="HomePage.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainLayout.Master.cs">
+      <DependentUpon>MainLayout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainLayout.Master.designer.cs">
+      <DependentUpon>MainLayout.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fontawesome\less\brands.less" />
@@ -2226,6 +2254,7 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.woff2" />
     <Content Include="fontawesome\webfonts\fa-v4compatibility.ttf" />
     <Content Include="fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="MainLayout.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
