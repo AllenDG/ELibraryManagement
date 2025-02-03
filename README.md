@@ -34,9 +34,9 @@ This project uses an **ASP.NET** empty project structure. Follow the steps below
 
 
 ## Clone Repository
--git clone https://github.com/AllenDG/ELibrary-Management-System.git
+- https://github.com/AllenDG/ELibrary-Management-System.git
 
 
 ## Contributors
 - [Allen Walter De Guzman](https://github.com/AllenDG)
-   git clone https://github.com/AllenDG/ELibrary-Management-System.git
+   
