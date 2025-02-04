@@ -13,12 +13,13 @@
 
     <script src="bootstrap\js\bootstrap.bundle.min.js"></script>
     <link href="css\homepage.css" rel="stylesheet" />
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="container navbar-container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
                     <img src="assets\img\bookLogo.png" width="50" height="50" />
@@ -66,7 +67,9 @@
         </div> 
 
         <div>
+            
             <asp:ContentPlaceholder ID="ContentPlaceholder1" runat="server">
+
             </asp:ContentPlaceholder>
         </div>
 
